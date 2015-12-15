@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 
 
-Route::get('about', function () {
+Route::get('stats_absolute_deviation(a)t', function () {
     return 'about me';
 });
 
@@ -25,3 +25,6 @@ Route::get('about', function () {
 Route::get('mail', function () {
     return 'mail feature';
 });
+
+
+Route::resource('sendmail','mail_controller') ;
