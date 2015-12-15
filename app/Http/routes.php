@@ -28,3 +28,7 @@ Route::get('mail', function () {
 
 
 Route::resource('sendmail','mail_controller') ;
+
+Route::get('reporting', function () {
+    return 'reporting feature';
+});
