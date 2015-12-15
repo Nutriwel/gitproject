@@ -16,7 +16,7 @@ class mail_controller extends Controller
      */
     public function index()
     {
-        return 'webmail is our mail server';    
+        return 'webmail  is our mail server';    
     }
 
     /**
@@ -26,7 +26,7 @@ class mail_controller extends Controller
      */
     public function create()
     {
-        //
+        return 'now you can create a campaign';
     }
 
     /**
