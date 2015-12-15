@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 namespace App\Http\Controllers;
 
@@ -16,7 +16,7 @@ class mail_controller extends Controller
      */
     public function index()
     {
-        //
+        return 'webmail is our mail server';    
     }
 
     /**
