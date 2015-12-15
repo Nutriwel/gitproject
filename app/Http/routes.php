@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('abuot', function () {
     return 'about me';
 });
+
+
+Route::get('mail', function () {
+    return 'mail feature';
+});
